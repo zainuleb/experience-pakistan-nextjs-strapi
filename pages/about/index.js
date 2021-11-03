@@ -1,8 +1,9 @@
-import React from 'react';
+import Link from 'next/link';
+import Layout from '../../components/Layout';
 
 const About = () => {
   return (
-    <div>
+    <Layout title={'About Experience Pakistan'}>
       <h1>About</h1>
       <p>
         Pakistan is a destination for every one but is very little visited by
@@ -17,7 +18,8 @@ const About = () => {
         personal touch. Our Guides and Tour managers are trained to form a very
         friendly relation with tourists.
       </p>
-    </div>
+      <Link href="/">Home</Link>
+    </Layout>
   );
 };
 
